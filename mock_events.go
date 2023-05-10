@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/AmazingTalker/mailgun-go/v4/events"
 	"github.com/gorilla/mux"
-	"github.com/mailgun/mailgun-go/v4/events"
 )
 
 func (ms *mockServer) addEventRoutes(r *mux.Router) {

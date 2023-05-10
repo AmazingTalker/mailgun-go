@@ -3,8 +3,8 @@ package examples
 import (
 	"context"
 	"fmt"
-	"github.com/mailgun/mailgun-go/v4"
-	"github.com/mailgun/mailgun-go/v4/events"
+	"github.com/AmazingTalker/mailgun-go/v4"
+	"github.com/AmazingTalker/mailgun-go/v4/events"
 	"os"
 	"time"
 )
@@ -848,7 +848,7 @@ func SendTemplateMessage(domain, apiKey string) (string, error) {
 		"Hey %recipient.first%",
 		"If you wish to unsubscribe, click http://mailgun/unsubscribe/%recipient.id%",
 	) // IMPORTANT: No To:-field recipients!
-	
+
 	// Set template to be applied to this message.
 	m.SetTemplate("my-template")
 

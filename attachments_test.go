@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/AmazingTalker/mailgun-go/v4"
+	"github.com/AmazingTalker/mailgun-go/v4/events"
 	"github.com/facebookgo/ensure"
-	"github.com/mailgun/mailgun-go/v4"
-	"github.com/mailgun/mailgun-go/v4/events"
 )
 
 func createAttachment(t *testing.T) string {

@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/AmazingTalker/mailgun-go/v4"
 	"github.com/facebookgo/ensure"
-	"github.com/mailgun/mailgun-go/v4"
 )
 
 const domain = "valid-mailgun-domain"

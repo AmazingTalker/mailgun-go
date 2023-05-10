@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AmazingTalker/mailgun-go/v4/events"
 	"github.com/gorilla/mux"
-	"github.com/mailgun/mailgun-go/v4/events"
 )
 
 func (ms *mockServer) addMessagesRoutes(r *mux.Router) {
