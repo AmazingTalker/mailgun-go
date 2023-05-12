@@ -426,6 +426,8 @@ func (m *Message) SetSTOPeriod(stoPeriod string) error {
 	if !match {
 		return errors.New("STO period is invalid. Valid range is 24h to 72h")
 	}
+
+	m.stoPeriod = stoPeriod
 	return nil
 }
 
