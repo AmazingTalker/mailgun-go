@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mailgun/mailgun-go/v4"
+	"github.com/AmazingTalker/mailgun-go/v4"
 
 	"github.com/facebookgo/ensure"
 )
